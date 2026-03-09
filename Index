@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>hello</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.png">
+
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js"></script>
+</head>
+
+<body>
+
+<div id="loader">
+<div class="logo">hello</div>
+<div class="spinner"></div>
+</div>
+
+<div id="app" class="hidden">
+
+<header>
+<h2>hello</h2>
+<button onclick="logout()">logout</button>
+</header>
+
+<div id="chatArea"></div>
+
+<div id="msgBox">
+<input id="msgInput" placeholder="message">
+<button onclick="sendMsg()">send</button>
+</div>
+
+</div>
+
+<script src="firebase-config.js"></script>
+<script src="auth.js"></script>
+<script src="chat.js"></script>
+<script src="ui.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+"name":"hello",
+"short_name":"hello",
+"display":"standalone",
+"start_url":"index.html",
+"background_color":"#0f172a",
+"theme_color":"#0f172a",
+"icons":[
+{
+"src":"icon.png",
+"sizes":"512x512",
+"type":"image/png"
+}
+]
+}
